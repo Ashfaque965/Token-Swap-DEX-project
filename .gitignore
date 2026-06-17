@@ -1,0 +1,29 @@
+node_modules
+.env
+.env.local
+coverage
+coverage.json
+typechain
+typechain-types
+cache
+artifacts
+deployment-info.json
+*.log
+
+# Hardhat files
+cache
+artifacts
+
+# Frontend
+frontend/node_modules
+frontend/.next
+frontend/out
+frontend/.env*.local
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+*~
+.DS_Store
